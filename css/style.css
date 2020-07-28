@@ -1,0 +1,49 @@
+body{
+	margin:0;
+	display: flex;
+	padding:0em;
+	flex-direction:column;
+	min-height:100vh;
+	background-color:red;
+}
+
+header,footer{
+margin:0em;
+padding:0em;
+}
+
+header,footer{
+height:7em;
+}
+section{
+	columns:1;
+	display:flex;
+	flex:1;
+}
+.ligne1,.ligne2,.ligne3,.ligne4{
+display:flex;
+flex-direction:row;
+justify-content: center;
+justify-content:space-around;
+margin-bottom:50px;
+}
+
+.prod img{
+  box-shadow: 0 1px 2px rgba(0,0,0,0.20);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.prod img:hover{
+ box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+#contenu{
+	margin-top: 2000px;
+	margin-bottom:100px;
+}
+.prodpic{
+	width:30px;
+	height:40px;
+}
+.cartpic{
+	margin-top:300px;
+}
